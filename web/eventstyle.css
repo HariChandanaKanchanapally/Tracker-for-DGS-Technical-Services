@@ -1,0 +1,60 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/css3-cssplay5.html
+Copyright (c) 2005-2009 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+
+.slideOuter {width:747px; overflow:hidden; margin:0 auto; position:relative; z-index:500;}
+.slideOuter .slide {padding:0; margin:0; list-style:none; width:1200px; overflow:hidden;}
+.slideOuter .slide li {float:left; position:relative;}
+.slideOuter .slide li {display:block; float:left; width:148px; border-right:1px solid #fff; background:#ddd; overflow:hidden;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+.slideOuter .slide #p5 {width:360px;}
+
+.slideOuter .slide li img {border:0; width:360px; height:125px; display:block; position: absolute; top:0; left:-106px;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+
+.slideOuter .slide:hover #p1,
+.slideOuter .slide:hover #p2,
+.slideOuter .slide:hover #p3,
+.slideOuter .slide:hover #p4 {width:96px;}
+
+.slideOuter .slide li:hover img {left:0;}
+
+.slideOuter .slide #p1:hover,
+.slideOuter .slide #p2:hover,
+.slideOuter .slide #p3:hover,
+.slideOuter .slide #p4:hover {width:360px;}
+
+ul.slide dl {padding:0; margin:125px 0 0 0;}
+ul.slide dt {padding:0 5px; margin:0; font:normal 13px/25px arial,sans-serif; color:#eee; background:#008; border-top:1px solid #fff;}
+ul.slide dd {padding:0 5px; margin:0; font:normal 12px/18px arial,sans-serif; color:#eee; height:0; overflow:hidden;
+-webkit-transition: 0.5s;
+-moz-transition: 0.5s;
+-o-transition: 0.5s;
+transition: 0.5s;
+}
+ul.slide dd a { color:#fff; text-decoration:underline;}
+ul.slide dd a:hover { color:#fff; text-decoration:none;}
+
+ul.slide dt:hover + dd {height:104px;}
+ul.slide dd:hover {height:104px;}
+ul.slide .m1 {background:#562;}
+ul.slide .m2 {background:#366;}
+ul.slide .m3 {background:#246;}
+ul.slide .m4 {background:#741;}
+ul.slide .m5 {background:#623;}
+
+ul.slide li:hover dt {font-weight:bold; color:#fff;}

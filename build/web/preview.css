@@ -1,0 +1,67 @@
+html{
+height:100%;
+background:#CCC;
+}
+body{
+font-family:Arial,Helvetica,sans-serif;
+height:100%;
+margin:0;
+background:#CCC;
+background:-webkit-gradient(linear, left top, left bottom, from(#EEE), to(#CCC));
+background:-moz-linear-gradient(top,  #EEE,  #CCC);
+filter:progid:DXImageTransform.Microsoft.gradient(startColorStr='#EEEEEE', EndColorStr='#CCCCCC');
+}
+a,a:visited{
+color:#06F;
+text-decoration:none;
+}
+h1{
+font-size:16px; 
+color:#B5FF00;
+font-weight:normal;
+margin:0;
+}
+.title{
+height:60px;
+}
+
+.info-section{
+width:825px;
+border:1px solid #333;
+margin-top:20px;
+position:relative;
+overflow:hidden;
+background:#222 url(bg.png) 0 0 repeat-y;
+}
+.form-panel{
+position:relative;
+float:left;
+width:190px;  
+padding:10px; 
+font-size:12px;
+color:#000;
+background-color:#EEE;
+}
+.form-sec{
+margin-bottom:10px;
+}
+.description{
+position:relative;
+float:left;
+width:585px;
+padding:15px;
+color:#FFF;
+font-size:14px;
+}
+select{
+width:190px;
+}
+label.disable{
+color:#777;
+}
+.copyright{
+width:100%;
+text-align:right;
+font-size:11px;
+margin:15px 0;
+}
